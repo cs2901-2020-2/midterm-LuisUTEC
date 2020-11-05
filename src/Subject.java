@@ -35,7 +35,7 @@ public class Subject {
     }
 
     public void update(){
-        
+
     }
 
 }
