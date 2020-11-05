@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 import java.util.ArrayList;
 import java.util.Observable;
 
-public class PieChart_monitor {
+public class PieChart_monitor extends DataManager {
     public void showchart(Stage stage, ArrayList<Integer> data, ArrayList<String> data_names, String subject){
         Scene scene = new Scene(new Group());
         stage.setWidth(500);
