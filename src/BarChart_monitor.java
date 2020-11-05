@@ -7,7 +7,9 @@ import javafx.scene.chart.XYChart;
 import javafx.stage.Stage;
 import javafx.scene.chart.BarChart;
 
-public class BarChart_monitor extends Subject {
+public class BarChart_monitor {
+    Stage stage = new Stage();
+
     public void showchart(Stage stage, ArrayList<Integer> data, ArrayList<String> data_names, String subject){
         final CategoryAxis xAxis = new CategoryAxis();
         final NumberAxis yAxis = new NumberAxis();
