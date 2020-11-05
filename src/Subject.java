@@ -10,6 +10,10 @@ public class Subject {
     Stage stage = new Stage();
     String subject;
 
+    public void setData_names(ArrayList<String> data_names) {
+        this.data_names = data_names;
+    }
+
     public ArrayList<String> getData_names() {
         return data_names;
     }
@@ -22,6 +26,16 @@ public class Subject {
         return data;
     }
 
-    BarChart_monitor barChart_monitor = new BarChart_monitor();
-    PieChart_monitor pieChart_monitor = new PieChart_monitor();
+    public void setSubject(String subject) {
+        this.subject = subject;
+    }
+
+    public String getSubject() {
+        return subject;
+    }
+
+    public void update(){
+        
+    }
+
 }

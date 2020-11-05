@@ -7,7 +7,9 @@ import javafx.stage.Stage;
 
 import java.util.ArrayList;
 
-public class PieChart_monitor extends Subject {
+public class PieChart_monitor {
+    Stage stage = new Stage();
+
     public void showchart(Stage stage, ArrayList<Integer> data, ArrayList<String> data_names, String subject){
         Scene scene = new Scene(new Group());
         stage.setWidth(500);
