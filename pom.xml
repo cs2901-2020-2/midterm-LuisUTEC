@@ -5,16 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cs2901</groupId>
-    <artifactId>lab9-publisher-subscriber-nicho-4</artifactId>
+    <artifactId>midterm-LuisUTEC</artifactId>
     <version>0.1</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <sonar.projectKey>cs2901-2020-2_lab9-publisher-subscriber-nicho-4</sonar.projectKey>
+        <sonar.projectKey>cs2901-2020-2_midterm-LuisUTEC</sonar.projectKey>
         <sonar.organization>cs2901-2020-2</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.login>90a769e5ce80417d95ff6f1729224d46b2ce9c09</sonar.login>
+        <sonar.login>02ca326a2d0c8236f1a24e4eebaf9cbffd5f09c5</sonar.login>
     </properties>
 
     <dependencies>
